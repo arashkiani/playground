@@ -1,0 +1,22 @@
+{
+    "terminal.integrated.cwd": "./hooks",
+    "stylelint.configOverrides": {
+        "ignoreFiles": "**/*.css"
+    },
+    "files.exclude": {
+        "*.sln": true,
+        "*.csproj" : true,
+        "**/*.cs" : true,
+        "**/Genomics.Dashboard.WebUnitTests/": true,
+        "**/Genomics.Dashboard.WebIntegrationTests/": true,
+        "**/Genomics.Dashboard.Web/": false,
+    },
+    "files.watcherExclude": {
+        ".vscode/": true,
+        "./node_modules/": true,
+        "./.git/": true
+    },
+    "eslint.enable": true,
+    "prettier.eslintIntegration": true,
+
+}

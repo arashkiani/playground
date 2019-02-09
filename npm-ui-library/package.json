@@ -1,0 +1,46 @@
+{
+  "name": "@arash_k/sample-npm-ui-library",
+  "version": "0.0.3",
+  "description": "npm-ui-library",
+  "main": "dist/index.js",
+  "author": "arash kiani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arashkiani/playground.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access=public",
+    "release": "standard-version",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^14.0.0 || ^15.0.0 || ^16.0.0",
+    "react-dom": "^14.0.0 || ^15.0.0 || ^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.5",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.14.0",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16.2": "^1.0.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rimraf": "^2.6.3",
+    "sinon": "^1.17.6",
+    "standard-version": "^4.0.0",
+    "typescript": "^2.6.1"
+  }
+}
