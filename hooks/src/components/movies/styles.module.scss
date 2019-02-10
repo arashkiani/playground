@@ -1,0 +1,14 @@
+.movies {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+
+  &__item {
+    width: 200px;
+    margin: auto;
+  }
+
+  &__title {
+    font-size: 1rem;
+  }
+}

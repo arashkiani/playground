@@ -1,0 +1,16 @@
+.filters {
+  display: grid;
+  padding: 2rem;
+  
+  &__input {
+    grid-column: 1 / 4;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+  &__btn {
+    grid-column: 4 / 4;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
