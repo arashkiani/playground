@@ -4,7 +4,8 @@ import Filter from "../filter";
 import useMovies from "./movies.store";
 import styles from "./styles.module.scss";
 import movieFilter from "../../helpers/movieFilter";
-function Movies() {
+
+export default () => {
   const {
     movies: { isLoaded = false, data },
     fetchMovies
@@ -15,11 +16,9 @@ function Movies() {
     fetchMovies();
   }, []);
 
-  if (!isLoaded) {
-    return <Loading />;
-  }
   const filterProps = { searchText, updateSearch };
-
+  if (!isLoaded) return <Loading />;
+  if (!data.length) return <div>No Movies</div>;
   return (
     <>
       <Filter {...filterProps} />
@@ -42,6 +41,4 @@ function Movies() {
       </div>
     </>
   );
-}
-
-export default Movies;
+};
