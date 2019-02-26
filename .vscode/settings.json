@@ -1,5 +1,5 @@
 {
-    "terminal.integrated.cwd": "./hooks",
+    "terminal.integrated.cwd": "./",
     "stylelint.configOverrides": {
         "ignoreFiles": "**/*.css"
     },
