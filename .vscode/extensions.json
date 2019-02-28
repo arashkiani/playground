@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "msjsdiag.debugger-for-chrome",
+        "dbaeumer.vscode-eslint",
+        "xabikos.ReactSnippets",
+        "christian-kohler.npm-intellisense",
+        "humao.rest-client",
+        "esbenp.prettier-vscode",
+        "shinnn.stylelint",
+        "Orta.vscode-jest",
+        "wayou.vscode-todo-highlight",
+        "streetsidesoftware.code-spell-checker",
+        "mikestead.dotenv",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "WallabyJs.quokka-vscode",
+        "silvenon.mdx",
+    ]
+  }

@@ -18,5 +18,7 @@
     },
     "eslint.enable": true,
     "prettier.eslintIntegration": true,
-
+    "files.associations": {
+        "*.md": "mdx"
+    }
 }
