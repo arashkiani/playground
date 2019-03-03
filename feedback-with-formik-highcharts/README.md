@@ -1,6 +1,6 @@
-#Formik & highcharts with hooks
+# Formik & highcharts with hooks
 
-##Make customer feedback page
+## Make customer feedback page
 - The page allow customers to sign up for a form 
     - Name
     - Email
@@ -13,18 +13,18 @@
 - Add a bit more than a bare bone css
 
 
-# Tools to use
+## Tools to use
 - Create react app to get things going quickly
 - Explore formik to simplify validation
 - Explore HighChart.js (will use chart.js if I find it hard)
 
 *Yes! This is the first time im using formik, HighChart*
 
-##Tasks : 
+## Tasks : 
 - Form with validation
 - Chart showing rate 
 - Display list of Feedbacks
 
-##Out of scope due to time:
+## Out of scope due to time:
 - Writing typegards
 - Testing components
