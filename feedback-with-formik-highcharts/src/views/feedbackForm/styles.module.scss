@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+.form {
+    &__submit {
+        padding: $form-padding;
+        font-size: $text-size-1;
+        margin: $form-margin-top;
+        background: $text-color-primary;
+        cursor: pointer;
+        width: 100%;
+        color: $text-color-primary-invert;
+    }
+}

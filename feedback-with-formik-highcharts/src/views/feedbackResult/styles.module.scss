@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.feedbackResult {
+    &__next_btn {
+        padding: $form-padding;
+        font-size: $text-size-1;
+        margin: $form-margin-top;
+        background: $text-color-primary;
+        cursor: pointer;
+        width: 100%;
+        color: $text-color-primary-invert;
+    }
+    &__comment{
+        cursor: pointer;
+        &--hide {
+            display: none;
+            position: absolute;
+            background: $text-color-alert;
+            padding: 1rem;
+            color: $text-color-primary-invert
+        }
+        &:hover div{
+            display: block;
+        }
+    }
+}

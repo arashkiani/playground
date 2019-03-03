@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+.input {
+    &__error {
+        color: $text-color-alert;
+    }
+    &__field {
+        width: 100%;
+        padding: $form-padding;
+        color: $text-color-primary;
+        margin: $form-margin-top;
+        font-size: $text-size-1;
+        box-sizing: border-box;
+    }
+}
